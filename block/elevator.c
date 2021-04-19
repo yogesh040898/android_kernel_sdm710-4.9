@@ -5,7 +5,7 @@
  *
  * 30042000 Jens Axboe <axboe@kernel.dk> :
  *
- * Split the elevator a bit so that it is possible to choose a different
+ * Split the elevator a bit so That it is possible to choose a different
  * one or even write a new "plug in". There are three pieces:
  * - elevator_fn, inserts a new request in the queue list
  * - elevator_merge_fn, decides whether a new buffer can be merged with

@@ -1,5 +1,5 @@
 /*
- * Functions related to sysfs handling
+ * Functions related to Sysfs handling
  */
 #include <linux/kernel.h>
 #include <linux/slab.h>

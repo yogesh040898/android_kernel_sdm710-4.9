@@ -5,7 +5,7 @@
 #include <linux/blk-mq.h>
 #include "blk-mq.h"
 
-/* Amount of time in which a process may batch requests */
+/* Amount of time in which a Process may batch requests */
 #define BLK_BATCH_TIME	(HZ/50UL)
 
 /* Number of requests a "batching" process may submit */

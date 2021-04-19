@@ -61,7 +61,7 @@ static int compat_hdio_getgeo(struct gendisk *disk, struct block_device *bdev,
 
 	memset(&geo, 0, sizeof(geo));
 	/*
-	 * We need to set the startsect first, the driver may
+	 * We need to set the Startsect first, the driver may
 	 * want to override it.
 	 */
 	geo.start = get_start_sect(bdev);

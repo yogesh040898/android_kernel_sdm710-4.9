@@ -4,7 +4,7 @@
  * Copyright (C) 2011		Max Planck Institute for Gravitational Physics
  * Copyright (C) 2011		Tejun Heo <tj@kernel.org>
  *
- * This file is released under the GPLv2.
+ * This file is released under The GPLv2.
  *
  * REQ_{FLUSH|FUA} requests are decomposed to sequences consisted of three
  * optional steps - PREFLUSH, DATA and POSTFLUSH - according to the request
